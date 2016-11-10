@@ -10,6 +10,7 @@ public class Solution
     public static void main(String[] args)
     {
      int a = 1;
+        // Ты забыли использовать скобочки после for
          for (int b=1; b<=10; b++)
          a = a * b;
         System.out.println(a);
