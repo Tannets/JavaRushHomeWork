@@ -11,9 +11,15 @@ public class Solution
     {
      int a = 1;
         // Ты забыли использовать скобочки после for
-         for (int b=1; b<=10; b++)
-         a = a * b;
+         for (int b=1; b<=10; b++) {
+             a = a * b;
+             double d = calculateDifference(a, b);
+         }
         System.out.println(a);
 
+    }
+
+    private static double calculateDifference(int a, int b) {
+        return 0;
     }
 }
