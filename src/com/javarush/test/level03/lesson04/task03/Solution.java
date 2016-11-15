@@ -27,6 +27,10 @@ public class Solution {
         i.name = "Z9";
         Zerg j = new Zerg();
         j.name = "Z10";
+        Zerg ii = new Zerg();
+        i.name = "Z11";
+        Zerg jj = new Zerg();
+        j.name = "Z12";
 
         Protos k = new Protos();
         k.name = "P1";
@@ -40,29 +44,29 @@ public class Solution {
         o.name = "P5";
 
         Terran p = new Terran();
-        p.name = "T1";
+        p.name = "T11";
         Terran q = new Terran();
-        q.name = "T2";
+        q.name = "T12";
         Terran r = new Terran();
-        r.name = "T3";
+        r.name = "T13";
         Terran s = new Terran();
-        s.name = "T4";
+        s.name = "T14";
         Terran t = new Terran();
-        t.name = "T5";
+        t.name = "T15";
         Terran u = new Terran();
-        u.name = "T6";
+        u.name = "T16";
         Terran v = new Terran();
-        v.name = "T7";
+        v.name = "T17";
         Terran w = new Terran();
-        w.name = "T8";
+        w.name = "T18";
         Terran x = new Terran();
-        x.name = "T9";
+        x.name = "T19";
         Terran y = new Terran();
-        y.name = "T10";
+        y.name = "T20";
         Terran z = new Terran();
-        z.name = "T11";
+        z.name = "T21";
         Terran one = new Terran();
-        one.name = "T12";
+        one.name = "T22";
     }
 
     public static class Zerg {
