@@ -8,6 +8,8 @@ package com.javarush.test.level03.lesson08.task01;
 Последовательность вводимых данных имеет большое значение.
 */
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.io.*;
 
 public class Solution
@@ -20,9 +22,7 @@ public class Solution
         int sAge = Integer.parseInt(age);
         String name = reader.readLine();
 
-        System.out.println(name + " Захватит мир через " + sAge + " лет. Му-ха-ха!");
-
+        System.out.println(name + " захватит мир через " + sAge + " лет. Му-ха-ха!");
         //напишите тут ваш код
-
     }
 }
