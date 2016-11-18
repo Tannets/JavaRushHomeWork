@@ -42,6 +42,10 @@ public class Solution {
         n.name = "P4";
         Protos o = new Protos();
         o.name = "P5";
+        Protos or = new Protos();
+        or.name = "P6";
+        Protos os = new Protos();
+        os.name = "P7";
 
         Terran p = new Terran();
         p.name = "T11";

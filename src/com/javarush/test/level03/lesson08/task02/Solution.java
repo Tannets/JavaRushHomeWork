@@ -12,6 +12,16 @@ public class Solution
 {
     public static void main(String[] args) throws Exception
     {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        String name = reader.readLine();
+        String n1 = reader.readLine();
+        int An1 = Integer.parseInt(n1);
+        String n2 = reader.readLine();
+        int An2 = Integer.parseInt(n2);
+
+
+        System.out.println(name + " получает " + An1 + " через " + An2 + " лет.");
         //напишите тут ваш код
 
     }
