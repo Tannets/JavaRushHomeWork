@@ -15,10 +15,9 @@ package com.javarush.test.level04.lesson04.task08;
 
 import java.io.*;
 
-public class Solution
-{
-    public static void main(String[] args) throws Exception
-    {
+public class Solution {
+
+    public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String a1 = reader.readLine();
@@ -28,11 +27,11 @@ public class Solution
         String c1 = reader.readLine();
         int c = Integer.parseInt(c1);
 
-        if ((a > (b + c)) || (b > (a + c)) || (c > (a + b)))
+        if ((a < (b + c)) && (b < (a + c)) && (c < (a + b))) {
             System.out.println("Треугольник существует.");
-        else
+        } else {
             System.out.println("Треугольник не существует.");
-
+        }
 
         //напишите тут ваш код
 
