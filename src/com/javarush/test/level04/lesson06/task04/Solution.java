@@ -17,7 +17,7 @@ public class Solution
         int p2 = person2.length();
 
         if (person1.equals(person2)) {
-            System.out.println("Имена идетичны");
+            System.out.println("Имена идентичны");
         } else if (p1 == p2) {
             System.out.println("Длины имен равны");
         }
