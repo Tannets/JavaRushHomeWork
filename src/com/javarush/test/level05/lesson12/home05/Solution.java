@@ -16,13 +16,12 @@ public class Solution
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         int i = 0;
-        String sum = "сумма";
 
         while (true) {
-            int a = Integer.parseInt(reader.readLine());
-            i = i + a;
-            if (reader.readLine().equals(sum))
+           String sum = reader.readLine();
+            if (sum.equals("сумма"))
                 break;
+            else i += Integer.parseInt(sum);
         }
         System.out.println(i);
         //напишите тут ваш код
