@@ -14,7 +14,7 @@ public class Solution
     public static void main(String[] args) throws Exception
     {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int maximum = 0;
+        int maximum = Integer.MIN_VALUE;
         int N = Integer.parseInt(reader.readLine());
 
         if (N > 0) {
