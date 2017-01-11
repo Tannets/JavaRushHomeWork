@@ -12,12 +12,7 @@ public class StringHelper
 {
     public static String multiply(String s)
     {
-        String result = "";
-        for (int i = 0; i < 5; i++) {
-            result += s;
-        }
-        //напишите тут ваш код
-        return result;
+        return multiply(s, 5);
     }
 
     public static String multiply(String s, int count)
