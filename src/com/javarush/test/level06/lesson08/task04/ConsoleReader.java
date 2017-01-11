@@ -16,37 +16,31 @@ boolean readBoolean() – читает с клавиатуры строку "tru
 
 public class ConsoleReader
 {
+    public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
     public static String readString() throws Exception
     {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String readString = reader.readLine();
-        return readString;
+        return reader.readLine();
         //напишите тут ваш код
     }
 
     public static int readInt() throws Exception
     {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int readInt = Integer.parseInt(reader.readLine());
-        return readInt;
+        return Integer.parseInt(reader.readLine());
         //напишите тут ваш код
 
     }
 
     public static double readDouble() throws Exception
     {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        double readDouble = Double.parseDouble(reader.readLine());
-        return readDouble;
+        return Double.parseDouble(reader.readLine());
         //напишите тут ваш код
 
     }
 
     public static boolean readBoolean() throws Exception
     {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        boolean readBoolean = Boolean.parseBoolean(reader.readLine());
-        return readBoolean;
+        return Boolean.parseBoolean(reader.readLine());
         //напишите тут ваш код
 
     }
